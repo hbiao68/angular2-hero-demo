@@ -16,7 +16,6 @@ export class HeroDetailComponent implements OnInit, OnDestroy {
 
     @Input() hero: Hero;
 
-
     sub: any;
     error: any;
     navigated = false;
